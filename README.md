@@ -8,3 +8,4 @@
 
 ![cat3](.\cat3.gif)
 ![cat](https://i.imgur.com/MSslHtf.gif)
+![cat2](./cat2.gif)
