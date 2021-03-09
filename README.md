@@ -5,3 +5,7 @@
 產業新尖兵 Web 基礎程式練習專案
 
 # elite-web-demo-99
+
+![star](./star.jpg)  
+![cat](https://i.imgur.com/MSslHtf.gif)
+![cat2](./cat2.gif)
