@@ -6,6 +6,4 @@
 
 # elite-web-demo-99
 
-![star](./star.jpg)  
 ![cat](https://i.imgur.com/MSslHtf.gif)
-![cat2](./cat2.gif)
