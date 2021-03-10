@@ -2,7 +2,7 @@
 
 產業新尖兵 Web 基礎程式練習專案
 
-added on develop breach 34567
+added on develop branch 34567
 
 產業新尖兵 Web 基礎程式練習專案
 
@@ -12,6 +12,6 @@ added on develop breach 34567
 ![cat](https://i.imgur.com/MSslHtf.gif)
 ![cat2](./cat2.gif)
 
-added on master breach  ff
+added on master branch
 
-added on master breach  ds
+added on master branch
