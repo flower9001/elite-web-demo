@@ -1,0 +1,62 @@
+*   [33ma7a8e27[m -[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m[m Merge branch 'develop' [32m(14 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[31m|[m[32m\[m  
+[31m|[m * [33ma41373b[m -[m[m add fff [32m(17 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+* [32m|[m [33m28f307e[m -[m[m Merge branch 'develop' [32m(25 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[33m|[m[32m\[m[32m|[m 
+[33m|[m * [33mdced22b[m -[m[m add 123 [32m(54 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[33m|[m *   [33m796fb51[m -[m[m Merge branch 'master' into develop [32m(55 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[33m|[m [35m|[m[36m\[m  
+[33m|[m * [36m|[m [33md1932f2[m -[m[m add s [32m(58 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[33m|[m * [36m|[m [33m6996aa2[m -[m[m add text [32m(63 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+* [36m|[m [36m|[m [33m8fb7c9b[m -[m[m add text [32m(45 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[36m|[m [36m|[m[36m/[m  
+[36m|[m[36m/[m[36m|[m   
+* [36m|[m   [33mff60591[m -[m[m Merge remote-tracking branch 'origin/master' [32m(59 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m[1;32m\[m [36m\[m  
+[1;31m|[m * [36m\[m   [33m223f55a[m -[m[m Merge branch 'master' of https://github.com/flower9001/elite-web-demo [32m(62 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m [1;33m|[m[1;34m\[m [36m\[m  
+[1;31m|[m [1;33m|[m * [36m\[m   [33m123c61c[m -[m[m Merge remote-tracking branch 'origin/master' [32m(68 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m [1;33m|[m [1;35m|[m[1;36m\[m [36m\[m  
+[1;31m|[m [1;33m|[m [1;35m|[m * [36m|[m [33m059f18d[m -[m[m modify text [32m(76 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m [1;33m|[m [1;35m|[m [36m|[m[36m/[m  
+[1;31m|[m [1;33m|[m * [36m/[m [33m4c6bd70[m -[m[m modify text [32m(68 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m [1;33m|[m [36m|[m[36m/[m  
+[1;31m|[m * [36m/[m [33m9e165da[m -[m[m add text [32m(63 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[1;31m|[m [36m|[m[36m/[m  
+* [36m/[m [33mc4191f6[m -[m[m modify text [32m(60 minutes ago) [1;34m<ZHOU WEI-LIANG>[m
+[36m|[m[36m/[m  
+*   [33m45f4d19[m -[m[m Merge branch 'develop' [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+[31m|[m[32m\[m  
+[31m|[m * [33mb375274[m -[m[m add 345 [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [32m|[m [33m5d3e131[m -[m[m add 123 [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [32m|[m [33m1587a43[m -[m[m Merge branch 'develop' [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+[33m|[m[32m\[m[32m|[m 
+[33m|[m * [33m4bd7ae8[m -[m[m add some text [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [34m|[m [33me6296e2[m -[m[m add some text [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [34m|[m [33mda99b52[m -[m[m add some text [32m(2 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+[34m|[m[34m/[m  
+* [33md6d13d6[m -[m[m add some text [32m(3 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m5999efc[m -[m[m 新增忽略清單 [32m(3 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m58430c1[m -[m[m 改斜線 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33mb53adc2[m -[m[m 加圖 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33med0f089[m -[m[m 加圖 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m1ad5f21[m -[m[m add picture [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m022e2b1[m -[m[m 移動，刪除 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33mf993d85[m -[m[m 移圖 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33ma5bc33e[m -[m[m 放入圖片 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m55466c0[m -[m[m 加貓 [32m(22 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m2f48646[m -[m[m 改名 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m45f1855[m -[m[m 減圖 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m87fa8f6[m -[m[m 加圖 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m4a15f4c[m -[m[m 加字 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m0f92e6f[m -[m[m 加圖 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m82e9234[m -[m[m 加句子 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33m0ff413b[m -[m[m 再 README 課程名稱 [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
+* [33mef51dfa[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33mbf0d67c[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m1ff682b[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m7bca53e[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m6ca207d[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m0e82984[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m257dc39[m -[m[m Update README.md [32m(23 hours ago) [1;34m<flower9001>[m
+* [33m741be57[m -[m[m Initial commit [32m(23 hours ago) [1;34m<ZHOU WEI-LIANG>[m
