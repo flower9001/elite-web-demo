@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="zh-Hant-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise_06</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-width: 70vw;
+
+        }
+        
+        header {
+            background-color: teal;
+            min-height: 10vh;
+            text-align: center;
+        }
+        
+        nav {
+            background-color: rgb(190, 125, 165);
+            min-height: 50px;
+        }
+        
+        .value{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        aside {
+            background-color: steelblue;
+            flex-grow: 1
+        }
+        
+        footer {
+            display: flex;
+            background-color: sandybrown;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>個人履歷</header>
+    <nav>
+        <tr>
+            <td><a href="../index.html">首頁</a></td>
+            <td><a href="#">關於我們</a></td>
+        </tr>
+    </nav>
+    <div class="value">
+        <article>
+            <section class="picture">
+            </section>
+        </article>
+        <aside>
+            <p><a href="#">簡歷</a></p>
+            <p><a href="#">專長</a></p>
+            <p><a href="#">作品集</a></p>
+        </aside>
+    </div>
+    <footer>
+        <p>聯絡人：周威良</p>
+        <p>連絡電話：0975049630</p>
+    </footer>
 </body>
+
 </html>
