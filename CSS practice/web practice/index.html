@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅遊網站</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            size: 3rem;
+        }
+        
+        * {
+            border: 1px solid black;
+        }
+        
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(auto-fill, 150px);
+            grid-template-rows: repeat(auto-fit, 150px);
+            gap: 10px;
+            grid-template-areas: "pop . ooo" "ppp .. iii" "iop klk jjj";
+            background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+            grid-column-start: 3
+        }
+        
+        .item {
+            grid-area: pop;
+            grid-area: 2/2/4/4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>1</div>
+        <div class="item">1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+    </div>
+</body>
+
+</html>

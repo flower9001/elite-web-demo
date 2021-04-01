@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab_06</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+    <style type="text/css">
+        body {
+            display: flex;
+            flex-direction: column;
+            background-position: center;
+            text-align: center;
+            margin: 0;
+            min-width: 100%;
+        }
+        
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(134, 196, 189);
+            min-width: 70%;
+            min-height: 80px;
+        }
+        
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(120, 134, 180);
+            min-width: 70%;
+        }
+        
+        main {
+            display: flex;
+            flex-direction: row;
+            min-height: 100vh;
+            min-width: 70%;
+        }
+        
+        main>section {
+            display: flex;
+            flex-grow: 5;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: rgb(212, 152, 152);
+        }
+        
+        main>aside {
+            flex-grow: 5;
+        }
+        
+        #curriculum:hover {
+            text-shadow: 0 0 3px #eeff00, 0 0 5px #0000FF;
+        }
+        
+        #curriculum {
+            color: rgb(214, 90, 148);
+            font-size: 30px;
+            font-family: 'Noto Sans TC', sans-serif;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        
+        table {
+            border: 1px;
+            background-position: center;
+            border-style: groove;
+            border-radius: 20px;
+            border-collapse: separate;
+            background-color: rgb(181, 190, 132);
+            width: 900px;
+            height: 500px;
+        }
+        
+        thead tr:first-child td:first-child {
+            border-top-left-radius: 20px;
+        }
+        
+        thead tr:first-child td:last-child {
+            border-top-right-radius: 20px;
+        }
+        
+        #bottom-left-radius {
+            border-bottom-left-radius: 20px;
+        }
+        
+        .bottom-right-radius {
+            border-bottom-right-radius: 20px;
+        }
+        
+        td:hover {
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+        
+        .week {
+            background-color: rgb(104, 206, 109);
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 20px;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        
+        .course {
+            background-color: rgb(143, 209, 229);
+            color: rgb(255, 0, 64);
+            font-family: 'Noto Sans TC', sans-serif;
+            font-size: 20px;
+            text-shadow: 0 0 3px #002fff;
+        }
+        
+        .time {
+            background-color: rgb(206, 184, 184);
+            color: rgb(62, 90, 184);
+            font-family: 'Noto Sans KR', sans-serif;
+            font-weight: 700;
+        }
+        
+        aside {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            background-color: rgb(153, 131, 170);
+        }
+        
+        aside>div {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            grid-template-rows: repeat(5, 40px);
+            min-width: 100%;
+            border: solid black 1px;
+            position: 0;
+        }
+        
+        aside>div>div {
+            border: solid black 1px;
+        }
+        
+        footer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(63, 63, 73);
+            min-height: 50px;
+            min-width: 70%;
+            color: blanchedalmond;
+        }
+    </style>
+</head>
+
+<body>
+    <header>學分試算系統</header>
+    <nav>
+        <p><a href="../Lab/index.html">回首頁</a></p>
+        <p><a href="#">選課系統</a></p>
+    </nav>
+    <main>
+        <section>
+            <table>
+                <caption>
+                    <p id="curriculum">課表</p>
+                </caption>
+                <thead>
+                    <tr class="week">
+                        <td></td>
+
+                        <td>星期一</td>
+                        <td>星期二</td>
+                        <td>星期三</td>
+                        <td>星期四</td>
+                        <td>星期五</td>
+
+                    </tr>
+                </thead>
+                <tr class="course">
+                    <td class="time">09:10</td>
+
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+
+                </tr>
+                <tr class="course">
+                    <td class="time">10:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                </tr>
+                <tr class="course">
+                    <td class="time">11:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                </tr>
+                <tr class="course">
+                    <td class="time">12:10</td>
+                    <td colspan="5">午休</td>
+                </tr>
+                <tr class="course">
+                    <td class="time">13:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                </tr>
+                <tr class="course">
+                    <td class="time">14:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                </tr>
+                <tr class="course">
+                    <td class="time">15:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                </tr>
+                <tr class="course">
+                    <td class="time" id="bottom-left-radius">16:10</td>
+                    <td>python基礎課程</td>
+                    <td>Web基礎設計課程</td>
+                    <td>軟體工程專題</td>
+                    <td>python基礎課程</td>
+                    <td class="bottom-right-radius">Web基礎設計課程</td>
+                </tr>
+            </table>
+        </section>
+        <aside>
+            <div>
+                <div>課程名稱</div>
+                <div>學分數</div>
+
+                <div>python基礎課程</div>
+                <div>14</div>
+
+                <div>Web基礎設計課程</div>
+                <div>14</div>
+
+                <div>軟體工程專題</div>
+                <div>7</div>
+
+                <div>總學分</div>
+                <div>35</div>
+            </div>
+
+        </aside>
+    </main>
+    <footer>
+        <div>連絡人：無</div>
+        <div>連絡電話：無</div>
+        <div>連絡地址：無</div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 09</title>
+    <style>
+        caption {
+            background-color: cyan;
+        }
+        
+        table {
+            border-top: 3px solid black;
+            border-left: 3px solid black;
+            border-right: 3px solid black;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        
+        table tr:nth-child(1) td,
+        table tr:nth-child(2) td,
+        table tr:nth-child(3) td,
+        table tr:nth-child(4) td,
+        table tr:nth-child(5) td,
+        table tr:nth-child(6) td,
+        table tr:nth-child(7) td,
+        table tr:nth-child(8) td {
+            border: 2px solid rgb(129, 123, 123);
+        }
+        
+        tbody tr:nth-child(5) td:nth-child(1),
+        tbody tr:nth-child(5) td:nth-child(2),
+        table tr:nth-child(8) td {
+            border-bottom: 3px solid rgb(0, 0, 0);
+        }
+        
+        table tr:nth-child(1) td:nth-child(1),
+        table tr:nth-child(4) td {
+            border-bottom: 3px solid rgb(0, 0, 0);
+        }
+        table tr:nth-child(2) td:nth-child(4),
+        table tr:nth-child(5) td:nth-child(3),
+        table tr:nth-child(6) td:nth-child(4),
+        table tr:nth-child(7) td:nth-child(1),
+        table tr:nth-child(8) td:nth-child(2){
+            border-left: 3px solid rgb(0, 0, 0);
+        }
+        #assets,
+        #debt {
+            border: 3px solid black;
+            background-color: yellow;
+        }
+        
+        #total {
+            border-right: yellow 3px solid;
+            border-left: yellow 3px solid;
+            background-color: yellow;
+        }
+        
+        #total .dollor {
+            border-bottom: dashed black 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>
+            <h3>資產負債表</h3>
+        </caption>
+        <thead>
+            <tr>
+                <td id="assets" colspan="3"> 資產 </td>
+                <td id="debt" colspan="3"> 負債及股東權益</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">流動資產</td>
+                <td>現金</td>
+                <td>399,526</td>
+                <td rowspan="3">流動負債</td>
+                <td>短期借貸</td>
+                <td>1,634,870</td>
+            </tr>
+
+            <tr>
+                <td>存貨</td>
+                <td>819,954</td>
+                <td></td>
+                <td>1,912,740</td>
+            </tr>
+
+            <tr>
+                <td>應收帳款</td>
+                <td>945,454</td>
+                <td>應付帳款</td>
+                <td>277,870</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>2,164,974</td>
+                <td>非流動負債</td>
+                <td>長期借款</td>
+                <td>69,600</td>
+            </tr>
+
+            <tr>
+                <td rowspan="4">非流動資產</td>
+                <td rowspan="4">固定資產</td>
+                <td></td>
+                <td>負債合計</td>
+                <td></td>
+                <td>1,982,340</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td rowspan="2">股東權益</td>
+                <td>股本</td>
+                <td>1,102,186</td>
+
+            </tr>
+
+            <tr>
+                <td>1,361,096</td>
+                <td>保留盈餘</td>
+                <td>441,544</td>
+
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>股東權益合計</td>
+                <td></td>
+                <td>1,543,730</td>
+            </tr>
+
+            <tr id="total">
+                <td class="total_1">資產合計</td>
+                <td></td>
+                <td class="dollor">3,526,070</td>
+                <td class="total_2">負債及股東權益</td>
+                <td></td>
+                <td class="dollor">3,526,070</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
