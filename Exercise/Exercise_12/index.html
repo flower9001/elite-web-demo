@@ -91,6 +91,10 @@
             grid-area: 5/2/6/3;
         }
         
+        #color-blue {
+            color: blue;
+        }
+        
         main {
             display: grid;
             grid-template-columns: repeat(3, 220px);
@@ -101,14 +105,14 @@
         }
         
         main>section {
-            border: groove 2px ;
+            border: groove 2px;
             margin: 0 10px 10px 10px;
         }
         
         section img {
             width: 196px;
         }
-
+        
         .section {
             display: grid;
             grid-template-columns: 80px 1fr;
@@ -151,10 +155,10 @@
     </header>
     <aside>
         <div>商品分類</div>
-        <div>所有商品</div>
-        <div>暢銷商品</div>
-        <div>本日精選</div>
-        <div>新品上市</div>
+        <div id="color-blue">所有商品</div>
+        <div id="color-blue" v>暢銷商品</div>
+        <div id="color-blue">本日精選</div>
+        <div id="color-blue">新品上市</div>
     </aside>
     <main>
         <section>
