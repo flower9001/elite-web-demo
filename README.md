@@ -3,7 +3,8 @@
 學習技能：HTML5、CSS、Bootstrap 4.6、JavaScript、jQuery
 
 
-git 忽略 __pycache__ 方法
-'
+# git 忽略 __pycache__ 方法
+```
 git rm --cached .\__pycache__
-'
+```
+
