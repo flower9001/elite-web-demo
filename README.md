@@ -4,6 +4,6 @@
 
 
 git 忽略 __pycache__ 方法
-ˋˋˋ
+'
 git rm --cached .\__pycache__
-ˋˋˋ
+'
